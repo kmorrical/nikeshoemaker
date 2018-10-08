@@ -1,0 +1,191 @@
+.nike-headline {
+  font-family:  'Monoton', cursive;
+  font-size: 600%;
+  color: orangered;
+  padding-left: 150px;
+  margin-bottom: -100px;
+  margin-top: 80px;
+}
+
+#blackCircle{
+ background-color: black;
+}
+
+#blueCircle{
+  background-color: #36486b;
+}
+
+#redCircle{
+ background-color: #E50914;
+}
+
+#yellowCircle {
+  background-color: #FFCC00;
+}
+
+#greyCircle{
+  background-color: #9e9e9e;
+}
+#greenCircle {
+  background-color: #34A853;
+}
+
+#orangeCircle {
+   background-color: #ff5722;
+}
+
+#lighterblueCircle {
+  background-color: #2196F3;
+}
+
+.colorCircle{
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  z-index: 9;
+  margin-left: 40px;
+  margin-right: 40px;
+  min-width: 75px;
+}
+
+.colorCircle-white{
+  width: 75px;
+  height: 75px;
+  border: solid darkgray 2px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.colorCircle-cheetah{
+  width: 75px;
+  height: 75px;
+  background-image: url("https://res.cloudinary.com/osidekweenyasss/image/upload/v1519683096/il_570xN.1037997614_e39t.jpg");
+  background-size: auto;
+  border-radius: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.whiteCircle{
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: solid darkgray 2px;
+}
+
+.shoepart-div{
+  margin-top: 100px;
+}
+
+.topCircles {
+  padding-top: 100px;
+}
+
+.container {
+  position: relative;
+}
+
+.nikeShoe {
+  height: auto;
+  width: 100%;
+  padding-left: 100px;
+  position: absolute;
+/*   background-image: url("http://res.cloudinary.com/osidekweenyasss/image/upload/v1519423587/PEG341705_v1.png");
+  background-size: 80%;
+    background-repeat: no-repeat;
+  background-position: 50% 0%; */
+}
+
+.wrap{
+  min-width: 300px;
+}
+
+.img1{
+   z-index: 0;
+}
+
+.img2{
+  z-index: 1;
+}
+
+.img-lace{
+  z-index: 2;
+}
+
+.img-upper{
+  z-index: 3;
+}
+
+.img-laceholder {
+  z-index: 4;
+}
+
+.img-flywire{
+  z-index: 5;
+}
+
+.img-tongue{
+  z-index: 6;
+}
+
+.img-insole{
+  z-index: 7;
+}
+
+.img-midsole{
+  z-index: 8;
+}
+
+.img-outsole{
+  z-index: 9;
+}
+
+
+#cheetahCircle {
+    background-image:      url("http://res.cloudinary.com/osidekweenyasss/image/upload/v1519683096/il_570xN.1037997614_e39t.jpg");
+    background-color: #DBB1CD;
+
+
+}
+
+.bottomCircle {
+  margin-right: 20px;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 25px;
+
+}
+
+.bottomCircle: hover{
+  cursor: pointer;
+}
+
+.shoePartText{
+  color: darkgray;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 75%;
+  vertical-align: middle;
+  
+}
+
+.shoePartText: hover{
+  cursor: : pointer;
+}
+
+.shoeboxdiv {
+  margin-top: 80px;
+  width: 100%;
+}
+
+@media ( max-width: 1024 ) {
+  /* Code here works for mobiles and tablets. */
+  .advert-img { width: 100%; }
+}
